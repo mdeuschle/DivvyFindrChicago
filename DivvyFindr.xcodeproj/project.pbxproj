@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A88CC9911C658F9C00865556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9901C658F9C00865556 /* AppDelegate.swift */; };
+		A88CC9961C658F9C00865556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88CC9941C658F9C00865556 /* Main.storyboard */; };
+		A88CC9991C658F9C00865556 /* DivvyFindr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9971C658F9C00865556 /* DivvyFindr.xcdatamodeld */; };
+		A88CC99B1C658F9D00865556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88CC99A1C658F9D00865556 /* Assets.xcassets */; };
+		A88CC99E1C658F9D00865556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88CC99C1C658F9D00865556 /* LaunchScreen.storyboard */; };
+		A88CC9A91C658F9D00865556 /* DivvyFindrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9A81C658F9D00865556 /* DivvyFindrTests.swift */; };
+		A88CC9B41C658F9D00865556 /* DivvyFindrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9B31C658F9D00865556 /* DivvyFindrUITests.swift */; };
+		A88CC9C21C658FE300865556 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9C11C658FE300865556 /* TableViewController.swift */; };
+		A88CC9C41C658FFA00865556 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9C31C658FFA00865556 /* MapViewController.swift */; };
+		A88CC9C61C65900A00865556 /* Divvy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9C51C65900A00865556 /* Divvy.swift */; };
+		A88CC9C81C659B7C00865556 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CC9C71C659B7C00865556 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A88CC9A51C658F9D00865556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88CC9851C658F9C00865556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88CC98C1C658F9C00865556;
+			remoteInfo = DivvyFindr;
+		};
+		A88CC9B01C658F9D00865556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88CC9851C658F9C00865556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88CC98C1C658F9C00865556;
+			remoteInfo = DivvyFindr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A88CC98D1C658F9C00865556 /* DivvyFindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DivvyFindr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88CC9901C658F9C00865556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A88CC9951C658F9C00865556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A88CC9981C658F9C00865556 /* DivvyFindr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DivvyFindr.xcdatamodel; sourceTree = "<group>"; };
+		A88CC99A1C658F9D00865556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A88CC99D1C658F9D00865556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A88CC99F1C658F9D00865556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88CC9A41C658F9D00865556 /* DivvyFindrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivvyFindrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88CC9A81C658F9D00865556 /* DivvyFindrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivvyFindrTests.swift; sourceTree = "<group>"; };
+		A88CC9AA1C658F9D00865556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88CC9AF1C658F9D00865556 /* DivvyFindrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivvyFindrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88CC9B31C658F9D00865556 /* DivvyFindrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivvyFindrUITests.swift; sourceTree = "<group>"; };
+		A88CC9B51C658F9D00865556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88CC9C11C658FE300865556 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		A88CC9C31C658FFA00865556 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		A88CC9C51C65900A00865556 /* Divvy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Divvy.swift; path = ../Divvy.swift; sourceTree = "<group>"; };
+		A88CC9C71C659B7C00865556 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A88CC98A1C658F9C00865556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88CC9A11C658F9D00865556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88CC9AC1C658F9D00865556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A88CC9841C658F9C00865556 = {
+			isa = PBXGroup;
+			children = (
+				A88CC98F1C658F9C00865556 /* DivvyFindr */,
+				A88CC9A71C658F9D00865556 /* DivvyFindrTests */,
+				A88CC9B21C658F9D00865556 /* DivvyFindrUITests */,
+				A88CC98E1C658F9C00865556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A88CC98E1C658F9C00865556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A88CC98D1C658F9C00865556 /* DivvyFindr.app */,
+				A88CC9A41C658F9D00865556 /* DivvyFindrTests.xctest */,
+				A88CC9AF1C658F9D00865556 /* DivvyFindrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A88CC98F1C658F9C00865556 /* DivvyFindr */ = {
+			isa = PBXGroup;
+			children = (
+				A88CC9901C658F9C00865556 /* AppDelegate.swift */,
+				A88CC9C51C65900A00865556 /* Divvy.swift */,
+				A88CC9C31C658FFA00865556 /* MapViewController.swift */,
+				A88CC9C11C658FE300865556 /* TableViewController.swift */,
+				A88CC9C71C659B7C00865556 /* TableViewCell.swift */,
+				A88CC9941C658F9C00865556 /* Main.storyboard */,
+				A88CC99A1C658F9D00865556 /* Assets.xcassets */,
+				A88CC99C1C658F9D00865556 /* LaunchScreen.storyboard */,
+				A88CC99F1C658F9D00865556 /* Info.plist */,
+				A88CC9971C658F9C00865556 /* DivvyFindr.xcdatamodeld */,
+			);
+			path = DivvyFindr;
+			sourceTree = "<group>";
+		};
+		A88CC9A71C658F9D00865556 /* DivvyFindrTests */ = {
+			isa = PBXGroup;
+			children = (
+				A88CC9A81C658F9D00865556 /* DivvyFindrTests.swift */,
+				A88CC9AA1C658F9D00865556 /* Info.plist */,
+			);
+			path = DivvyFindrTests;
+			sourceTree = "<group>";
+		};
+		A88CC9B21C658F9D00865556 /* DivvyFindrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A88CC9B31C658F9D00865556 /* DivvyFindrUITests.swift */,
+				A88CC9B51C658F9D00865556 /* Info.plist */,
+			);
+			path = DivvyFindrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A88CC98C1C658F9C00865556 /* DivvyFindr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88CC9B81C658F9D00865556 /* Build configuration list for PBXNativeTarget "DivvyFindr" */;
+			buildPhases = (
+				A88CC9891C658F9C00865556 /* Sources */,
+				A88CC98A1C658F9C00865556 /* Frameworks */,
+				A88CC98B1C658F9C00865556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DivvyFindr;
+			productName = DivvyFindr;
+			productReference = A88CC98D1C658F9C00865556 /* DivvyFindr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A88CC9A31C658F9D00865556 /* DivvyFindrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88CC9BB1C658F9D00865556 /* Build configuration list for PBXNativeTarget "DivvyFindrTests" */;
+			buildPhases = (
+				A88CC9A01C658F9D00865556 /* Sources */,
+				A88CC9A11C658F9D00865556 /* Frameworks */,
+				A88CC9A21C658F9D00865556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88CC9A61C658F9D00865556 /* PBXTargetDependency */,
+			);
+			name = DivvyFindrTests;
+			productName = DivvyFindrTests;
+			productReference = A88CC9A41C658F9D00865556 /* DivvyFindrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A88CC9AE1C658F9D00865556 /* DivvyFindrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88CC9BE1C658F9D00865556 /* Build configuration list for PBXNativeTarget "DivvyFindrUITests" */;
+			buildPhases = (
+				A88CC9AB1C658F9D00865556 /* Sources */,
+				A88CC9AC1C658F9D00865556 /* Frameworks */,
+				A88CC9AD1C658F9D00865556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88CC9B11C658F9D00865556 /* PBXTargetDependency */,
+			);
+			name = DivvyFindrUITests;
+			productName = DivvyFindrUITests;
+			productReference = A88CC9AF1C658F9D00865556 /* DivvyFindrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A88CC9851C658F9C00865556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matt Deuschle";
+				TargetAttributes = {
+					A88CC98C1C658F9C00865556 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EUAKYK4NXS;
+					};
+					A88CC9A31C658F9D00865556 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EUAKYK4NXS;
+						TestTargetID = A88CC98C1C658F9C00865556;
+					};
+					A88CC9AE1C658F9D00865556 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EUAKYK4NXS;
+						TestTargetID = A88CC98C1C658F9C00865556;
+					};
+				};
+			};
+			buildConfigurationList = A88CC9881C658F9C00865556 /* Build configuration list for PBXProject "DivvyFindr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A88CC9841C658F9C00865556;
+			productRefGroup = A88CC98E1C658F9C00865556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A88CC98C1C658F9C00865556 /* DivvyFindr */,
+				A88CC9A31C658F9D00865556 /* DivvyFindrTests */,
+				A88CC9AE1C658F9D00865556 /* DivvyFindrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A88CC98B1C658F9C00865556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88CC99E1C658F9D00865556 /* LaunchScreen.storyboard in Resources */,
+				A88CC99B1C658F9D00865556 /* Assets.xcassets in Resources */,
+				A88CC9961C658F9C00865556 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88CC9A21C658F9D00865556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88CC9AD1C658F9D00865556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A88CC9891C658F9C00865556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88CC9991C658F9C00865556 /* DivvyFindr.xcdatamodeld in Sources */,
+				A88CC9C21C658FE300865556 /* TableViewController.swift in Sources */,
+				A88CC9911C658F9C00865556 /* AppDelegate.swift in Sources */,
+				A88CC9C81C659B7C00865556 /* TableViewCell.swift in Sources */,
+				A88CC9C61C65900A00865556 /* Divvy.swift in Sources */,
+				A88CC9C41C658FFA00865556 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88CC9A01C658F9D00865556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88CC9A91C658F9D00865556 /* DivvyFindrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88CC9AB1C658F9D00865556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88CC9B41C658F9D00865556 /* DivvyFindrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A88CC9A61C658F9D00865556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88CC98C1C658F9C00865556 /* DivvyFindr */;
+			targetProxy = A88CC9A51C658F9D00865556 /* PBXContainerItemProxy */;
+		};
+		A88CC9B11C658F9D00865556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88CC98C1C658F9C00865556 /* DivvyFindr */;
+			targetProxy = A88CC9B01C658F9D00865556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A88CC9941C658F9C00865556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A88CC9951C658F9C00865556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A88CC99C1C658F9D00865556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A88CC99D1C658F9D00865556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A88CC9B61C658F9D00865556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A88CC9B71C658F9D00865556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A88CC9B91C658F9D00865556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DivvyFindr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DivvyFindr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A88CC9BA1C658F9D00865556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DivvyFindr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DivvyFindr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A88CC9BC1C658F9D00865556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DivvyFindrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DivvyFindrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DivvyFindr.app/DivvyFindr";
+			};
+			name = Debug;
+		};
+		A88CC9BD1C658F9D00865556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DivvyFindrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DivvyFindrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DivvyFindr.app/DivvyFindr";
+			};
+			name = Release;
+		};
+		A88CC9BF1C658F9D00865556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DivvyFindrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DivvyFindrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DivvyFindr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A88CC9C01C658F9D00865556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DivvyFindrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattdeuschle.DivvyFindrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DivvyFindr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A88CC9881C658F9C00865556 /* Build configuration list for PBXProject "DivvyFindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88CC9B61C658F9D00865556 /* Debug */,
+				A88CC9B71C658F9D00865556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88CC9B81C658F9D00865556 /* Build configuration list for PBXNativeTarget "DivvyFindr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88CC9B91C658F9D00865556 /* Debug */,
+				A88CC9BA1C658F9D00865556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A88CC9BB1C658F9D00865556 /* Build configuration list for PBXNativeTarget "DivvyFindrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88CC9BC1C658F9D00865556 /* Debug */,
+				A88CC9BD1C658F9D00865556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A88CC9BE1C658F9D00865556 /* Build configuration list for PBXNativeTarget "DivvyFindrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88CC9BF1C658F9D00865556 /* Debug */,
+				A88CC9C01C658F9D00865556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A88CC9971C658F9C00865556 /* DivvyFindr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A88CC9981C658F9C00865556 /* DivvyFindr.xcdatamodel */,
+			);
+			currentVersion = A88CC9981C658F9C00865556 /* DivvyFindr.xcdatamodel */;
+			path = DivvyFindr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A88CC9851C658F9C00865556 /* Project object */;
+}
